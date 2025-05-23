@@ -2,7 +2,8 @@
 
 ## Project Overview
 SmartKeys is an on-device RAG (Retrieval-Augmented Generation) keyboard plugin for Android and iOS. It indexes your personal messaging data (e.g., Outlook, WhatsApp, Teams) and suggests contextual responses using a local LLM and embeddings pipeline. The solution combines:
-- A Go-based module for text processing, retrieval, and LLM orchestration using [LangChain Go](https://github.com/tmc/langchaingo)
+- A Go-based module for text processing, retrieval, and LLM orchestration using and extending [LangChain Go](https://github.com/tmc/langchaingo).
+  Main Indexing metadata: mood, relationship, intent, time of the day, platform
 - Native keyboard integrations on Android (Kotlin) and iOS (Swift)  
 - An offline vector storage layer supporting approximate nearest neighbor (ANN) search  
 
